@@ -1,0 +1,57 @@
+div {
+   font-family: Verdana;
+   background-color: #905486;
+   color: white;
+   font-size: 32px;
+   padding: 5px;
+}
+
+h1 {
+   display: flex;
+   justify-content: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(169, 196, 225);
+   font-size: 40px;
+   text-shadow: 2px 2px #ff9600;
+}
+
+h3 {
+   display: flex;
+   justify-content: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(142, 207, 45);
+   font-size: 40px;
+   text-shadow: 2px 2px #019f6d;
+}
+
+h5 {
+   display: flex;
+   justify-content: flex-end;
+   color: aliceblue;
+}
+
+#items {
+   display: flex;
+   justify-content: center;
+}
+
+nav {
+   background-color: #413254;
+   padding: 5px;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.items:hover {
+   background-color: gray;
+   opacity: 0.5;
+}
+
+img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 350px;
+   width: 350px;
+}
